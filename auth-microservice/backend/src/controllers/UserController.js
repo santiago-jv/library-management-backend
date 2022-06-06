@@ -29,7 +29,7 @@ UserController.registerUser = async (request, response) => {
             subject:'Register successful',
             email:user.email,
             html:`
-            <h1>Register succesful</h1>
+            <h1>Register successful</h1>
             <p> Welcome to email service ${user.name}, we are happy to have with us!</p>
             `
         }
